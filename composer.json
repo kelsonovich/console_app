@@ -1,0 +1,16 @@
+{
+    "name": "daniil/console_app",
+    "autoload": {
+        "psr-4": {
+            "Application\\": "src/",
+            "Library\\": "src/Library/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Daniil",
+            "email": "dasavinsky@scid.ru"
+        }
+    ],
+    "require": {}
+}
