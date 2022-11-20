@@ -20,6 +20,7 @@ class Storage
     {
         if (! self::$instance) {
             if (! file_exists(self::$pathToCommandsJson)) {
+                mkdir('./storage');
                 self::saveAllCommands();
             }
 
